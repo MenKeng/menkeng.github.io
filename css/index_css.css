@@ -1,6 +1,6 @@
 html,body{
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     height:100%;
     overflow: hidden;
 }
@@ -18,14 +18,14 @@ input{
 }
 .nav{
     position: fixed;
-    width:60px;
-    height:60px;
+    width:4rem;
+    height:4rem;
     border-radius: 50%;
-    right: 2rem;;
+    right: 1rem;;
     top:45%;
     background-color: #5561ff;
     font-size: 16px;
-    padding-top: 8px;
+    padding-top: 12px;
     box-sizing: border-box;
     text-align: center;
     vertical-align: middle;
@@ -57,11 +57,11 @@ input{
 }
 .slide-experience:checked~.nav-experience{
     background-color: #eee;
-    color:#b8f1ed;
+    color:#f28a63;
 }
 .slide-my:checked~.nav-my{
     background-color: #eee;
-    color:#b8d38f
+    color:#df7a30;
 }
 .container{
     transition: 500ms;
