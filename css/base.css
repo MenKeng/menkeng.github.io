@@ -7,7 +7,7 @@
     margin: 0;
 }
 .m {
-    width: 80rem;
+    width: 80%;
     margin: 0 auto;
 }
 .works {
@@ -37,4 +37,8 @@
     vertical-align: -0.15em;
     fill: currentColor;
     overflow: hidden;
+}
+a {
+    color: rgb(0, 0, 238) ;
+    text-decoration: none;
 }
