@@ -6,3 +6,35 @@
     float: right;
     margin: 0;
 }
+.m {
+    width: 1000px;
+    margin: 0 auto;
+}
+.works {
+    display: flex;
+    flex-direction: row;
+}
+.works div{
+    width: 25%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 图标库 */
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
