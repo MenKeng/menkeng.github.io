@@ -1,0 +1,6 @@
+.product:nth-child(odd) {
+    float: left;
+}
+.product:nth-child(even) {
+    float: right;
+}
