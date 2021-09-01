@@ -1,9 +1,6 @@
-
-*{
-    margin:0;
-    padding:0;
-}
 html,body{
+    margin: 0 auto;
+    width: 80%;
     height:100%;
     overflow: hidden;
 }
@@ -24,7 +21,7 @@ input{
     width:60px;
     height:60px;
     border-radius: 50%;
-    right:20px;
+    right: 2rem;;
     top:45%;
     background-color: #5561ff;
     font-size: 16px;
@@ -36,35 +33,35 @@ input{
 }
 .nav-base{
     margin-top: -120px;
-    background-color: #9999dd;
+    background-color: #f1ccb8;
 }
 .nav-skills{
     margin-top: -40px;
-    background-color: rgb(122,211,123);
+    background-color: #f1f1b8;
 }
 .nav-experience{
     margin-top: 40px;
-    background-color: rgb(123,123,123);
+    background-color: #b8f1ed;
 }
 .nav-my{
     margin-top:120px;
-    background-color: rgb(111,222,33);
+    background-color: #b8f1cc;
 }
 .slide-base:checked~.nav-base{
-    background-color: white;
-    color:#9999dd;
+    background-color: #eee;
+    color:#ae716e;
 }
 .slide-skills:checked~.nav-skills{
-    background-color: white;
-    color:rgb(122,211,123);
+    background-color: #eee;
+    color:#cf8878;
 }
 .slide-experience:checked~.nav-experience{
-    background-color: white;
-    color:rgb(123,123,123);
+    background-color: #eee;
+    color:#b8f1ed;
 }
 .slide-my:checked~.nav-my{
-    background-color: white;
-    color:rgb(111,222,33);
+    background-color: #eee;
+    color:#b8d38f
 }
 .container{
     transition: 500ms;
