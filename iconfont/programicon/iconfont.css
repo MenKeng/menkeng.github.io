@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2781844 */
+  src: url('iconfont.woff2?t=1630466449437') format('woff2'),
+       url('iconfont.woff?t=1630466449437') format('woff'),
+       url('iconfont.ttf?t=1630466449437') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-android:before {
+  content: "\e625";
+}
+
+.icon-email:before {
+  content: "\e634";
+}
+
+.icon-file:before {
+  content: "\e637";
+}
+
+.icon-console:before {
+  content: "\e638";
+}
+
+.icon-css:before {
+  content: "\e63a";
+}
+
+.icon-html:before {
+  content: "\e656";
+}
+
+.icon-git:before {
+  content: "\e658";
+}
+
+.icon-json:before {
+  content: "\e65f";
+}
+
+.icon-http:before {
+  content: "\e668";
+}
+
+.icon-image:before {
+  content: "\e669";
+}
+
+.icon-mxml:before {
+  content: "\e679";
+}
+
+.icon-powershell:before {
+  content: "\e680";
+}
+
+.icon-pdf:before {
+  content: "\e687";
+}
+
+.icon-readme:before {
+  content: "\e68a";
+}
+
+.icon-python:before {
+  content: "\e690";
+}
+
+.icon-settings:before {
+  content: "\e6a1";
+}
+
+.icon-xml:before {
+  content: "\e6b2";
+}
+
+.icon-vscode:before {
+  content: "\e6b8";
+}
+
+.icon-vue:before {
+  content: "\e6b9";
+}
+

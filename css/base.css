@@ -38,7 +38,12 @@
     fill: currentColor;
     overflow: hidden;
 }
+/* 图标示例 
+<svg class="icon" aria-hidden="true">
+    <use xlink:href="#icon-xxx"></use>
+</svg>
+**/
 a {
-    color:black ;
+    color:rgb(0,0,238) ;
     text-decoration: none;
 }
